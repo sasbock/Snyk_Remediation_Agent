@@ -1,0 +1,19 @@
+{
+  "name": "snyk-remediation-agent-demo",
+  "version": "1.0.0",
+  "description": "Minimal Express app with a deliberate SQL injection vulnerability for Snyk Code scanning demos.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^6.3.4"
+  }
+}
