@@ -10,4 +10,5 @@ scan_type="$1"
 
 git fetch origin
 git reset --hard origin/main
+npm install
 snyk-preview fix --agentic --experimental --"$scan_type" --provider snyk
